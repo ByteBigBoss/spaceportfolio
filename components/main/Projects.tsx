@@ -3,7 +3,7 @@ import ProjectCard from '../sub/ProjectCard'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col items-center justify-center py-20'>
+    <section id='projects' className='flex flex-col items-center justify-center py-20'>
       <h1 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-cyan-500 py-20'>
         My Projects
       </h1>
@@ -24,7 +24,7 @@ const Projects = () => {
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque numquam sapiente est! Ducimus, nam ipsa eos pariatur deleniti quod velit est tempore! Vitae, a ex dicta architecto voluptatibus consequatur alias.'
           />
         </div>
-    </div>
+    </section>
   )
 }
 
